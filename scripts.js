@@ -24,6 +24,8 @@ function getComputerNumber(max = 3){
     }
 }
 
+display.textContent = "Press the button containing your selection to start playing".toUpperCase()
+
 function playRound(computer, human){
 
     const computerValue = getComputerNumber();
