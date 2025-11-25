@@ -56,7 +56,14 @@ function playRound(computer, human){
 
     secondDisplay.textContent = `computer: ${computerScore} you: ${humanScore}`
 
+    if (computerScore === 5){
+        display.textContent = " THE COMPUTER WINS! "
+    } else if (humanScore === 5){
+        display.textContent = " YOU WIN!"
+    }
+
 }
+
 
 
 
